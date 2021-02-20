@@ -22,6 +22,7 @@ document.getElementById('addDeposit').addEventListener('click', function () {
     }
     else {
         alert('negative number is not valid');
+        document.getElementById('depositAmount').value = "";
     }
 
 })
@@ -38,6 +39,7 @@ document.getElementById('addWithdraw').addEventListener('click', function () {
     }
     else{
         alert('negative number is not valid');
+        document.getElementById('withdrawAmount').value = "";
     }
 
 })
